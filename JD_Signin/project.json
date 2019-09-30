@@ -1,0 +1,16 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "0A1ECD03-7",
+    "build_number": 7,
+    "build_time": 1569735829084
+  },
+  "useFeatures": [],
+  "icon": "res/logo.png",
+  "main": "main.js",
+  "name": "京东签到",
+  "packageName": "org.zzr.qiandao",
+  "scripts": {},
+  "versionCode": 1,
+  "versionName": "1.0.0"
+}
