@@ -104,7 +104,9 @@ function JdjrSignIn() {
 
 //京东签到领豆
 function lingdou() {
-    sleep(2000);
+    console.log("等待页面加载完成");
+    textContains("签到").waitFor();
+    console.log("页面加载成功，开始签到");
     if ((text("新人连签京豆礼包").exists()) || (text("京豆可抵钱！").exists())) {
         sl();
         click(device.height / 1.625);
