@@ -1,5 +1,5 @@
 # JD_SignIn - 京东签到脚本
-![1](https://img.shields.io/badge/version-v2.2.4.03-green)![2](https://img.shields.io/badge/author-zzr-blue)![3](https://img.shields.io/badge/update-20201108-informational)
+![](https://img.shields.io/badge/version-v2.2.4.03-green) ![](https://img.shields.io/badge/author-zzr-blue) ![](https://img.shields.io/badge/update-20201108-informational)
 
 ### 脚本简介：
 
