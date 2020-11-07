@@ -15,7 +15,6 @@ function firstdialog() {
 function sl() {
     sleep(1000)
 }
-
 function splus() {
     sleep(2000)
 }
@@ -104,7 +103,7 @@ function JdjrSignIn() {
 
 //京东签到领豆
 function lingdou() {
-    console.log("等待页面加载完成");
+    console.log("等待京东签到领豆页面加载完成");
     textContains("签到").waitFor();
     console.log("页面加载成功，开始签到");
     if ((text("新人连签京豆礼包").exists()) || (text("京豆可抵钱！").exists())) {
@@ -138,7 +137,9 @@ function lingdou() {
 
 //京东签到领券
 function lingquan() {
-    sl();
+    console.log("等待京东签到领券页面加载完成");
+    textContains("连签进度").waitFor();
+    console.log("页面加载成功，开始签到");
     if (!textContains("明天提醒我").exists()) {
         console.log("开始点击 立即领红包");
         while (!click("立即领红包"));
@@ -161,7 +162,7 @@ function lingquan() {
 
 //拍拍二手签到有礼
 function paipai() {
-    console.log("等待页面加载完成");
+    console.log("等待拍拍二手签到页面加载完成");
     textContains("签到").waitFor();
     console.log("页面加载成功，开始签到");
     var sigin = "签到";
