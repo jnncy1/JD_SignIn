@@ -1,4 +1,4 @@
-# JD_SignIn - 京东签到脚本 ![](https://img.shields.io/badge/version-v2.2.4.03-green) ![](https://img.shields.io/badge/author-zzr-blue) ![](https://img.shields.io/badge/update-20201108-informational)
+# JD_SignIn - 京东签到脚本 ![](https://img.shields.io/badge/version-v2.2.4.05-green) ![](https://img.shields.io/badge/author-zzr-blue) ![](https://img.shields.io/badge/update-20201108-informational)
 
 ## 脚本简介：
 
@@ -13,18 +13,6 @@
 - #### 京东拍拍二手签到;
 - #### 京东金融签到领钢镚;
 - #### 京东金融双签领取;
-
-------
-
-## 更新说明：
-
-- #### 修复了京东领券返回bug
-
-- #### 修复了京东金融返回bug
-
-- #### 优化了京东拍拍二手签到代码
-
-- #### 增加了页面加载等待
 
 ------
 
@@ -64,9 +52,7 @@ app.startActivity({
 
 ## 下载地址：
 
-#### [蓝奏云](https://www.lanzoui.com/ihfYTi676xa)
-
-------
+#### [蓝奏云](https://www.lanzoui.com/b00o0wbtc) 密码:2ojw
 
 ## 源码地址：
 
