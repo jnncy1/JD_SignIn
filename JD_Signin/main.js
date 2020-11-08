@@ -138,7 +138,7 @@ function lingdou() {
 //京东签到领券
 function lingquan() {
     console.log("等待京东签到领券页面加载完成");
-    textContains("连签进度").waitFor();
+    textContains("签").waitFor();
     console.log("页面加载成功，开始签到");
     if (!textContains("明天提醒我").exists()) {
         console.log("开始点击 立即领红包");
